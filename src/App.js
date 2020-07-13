@@ -17,7 +17,7 @@ function App() {
       product
     }
     const headers = {
-      'Contnet-Type': 'application/json'
+      'Content-Type': 'application/json'
     }
     try {
       let response = await fetch(`http://localhost:5000/payment`, {
